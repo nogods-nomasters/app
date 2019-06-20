@@ -1,0 +1,18 @@
+<mat-list>
+    <mat-list-item>
+        <a routerLink="/admin" routerLinkActive="active" mat-button class="mat-flat-button mat-primary">
+            <i class="material-icons">face</i>
+        </a>
+    </mat-list-item>
+    <mat-list-item>
+        <a routerLink="/customer" routerLinkActive="active" mat-button class="mat-flat-button mat-primary">
+            <i class="material-icons">face</i>
+        </a>
+    </mat-list-item>
+    <mat-list-item>
+        <button type="button" (click)="logout()" routerLinkActive="active" mat-button class="mat-flat-button mat-primary">
+      <i class="material-icons">face</i>
+    </button>
+    </mat-list-item>
+</mat-list>
+<router-outlet></router-outlet>
