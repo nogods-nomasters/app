@@ -15,6 +15,7 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AppConfigService } from './services/app-config-service';
 import { MatListModule } from '@angular/material';
 import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { NodesComponent } from './nodes/nodes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule, FormBuilder, ReactiveFormsModule } from '@angular/forms';
     AdminComponent,
     ModalComponent,
     CustomerComponent,
-    LoginComponent
+    LoginComponent,
+    NodesComponent
   ],
   imports: [
     BrowserModule,

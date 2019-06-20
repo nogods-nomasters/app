@@ -5,6 +5,7 @@ import { CustomerComponent } from './customer/customer.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './helpers/auth-guard';
 import { Role } from './models/role';
+import { NodesComponent } from './nodes/nodes.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'nodes',
+    component: NodesComponent
   }
 ];
 
